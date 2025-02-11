@@ -1,6 +1,7 @@
 package com.xworkz.springExample.beans;
 
 import lombok.*;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Getter
@@ -11,9 +12,15 @@ import org.springframework.stereotype.Component;
 @Component
 
 public class RailwayStation {
-    private  int id;
+
+    @Value("18")
+    private int id;
+
+    @Value("Arsikere")
     private String onBoarding;
-    private  String  departure;
+
+    @Value("tumkur")
+    private String departure;
 
 
 }

@@ -122,50 +122,50 @@ public class AllBeanRunner {
         college.setDepartment("BCA");
         System.out.println(college);
 
-        School school=applicationContext.getBean(School.class);
+        School school = applicationContext.getBean(School.class);
         school.setId(18);
         school.setName("oxford english high school");
         school.setNoOfStudents(100);
         System.out.println(school);
 
-        WaterBottle waterBottle=applicationContext.getBean(WaterBottle.class);
+        WaterBottle waterBottle = applicationContext.getBean(WaterBottle.class);
         waterBottle.setId(19);
         waterBottle.setBrand("Tupper Ware");
         waterBottle.setCost(320);
         System.out.println(waterBottle);
 
-        Actor actor=applicationContext.getBean(Actor.class);
+        Actor actor = applicationContext.getBean(Actor.class);
         actor.setId(20);
         actor.setActorName("darshan");
         actor.setLanguage("kannada");
         System.out.println(actor);
 
-        Hotel hotel=applicationContext.getBean(Hotel.class);
+        Hotel hotel = applicationContext.getBean(Hotel.class);
         hotel.setId(21);
         hotel.setHotelName("Udupi hotel");
         hotel.setType("veg");
         System.out.println(hotel);
 
-        Flipcart flipcart=applicationContext.getBean(Flipcart.class);
+        Flipcart flipcart = applicationContext.getBean(Flipcart.class);
         flipcart.setId(22);
         flipcart.setProductName("ear pods");
         flipcart.setRating(3);
         System.out.println(flipcart);
 
-        Zepto zepto=applicationContext.getBean(Zepto.class);
+        Zepto zepto = applicationContext.getBean(Zepto.class);
         zepto.setId(23);
         zepto.setOrders("bingo,krack-jack,snikers");
         zepto.setCost(1000);
         System.out.println(zepto);
 
-        MetroStation metroStation=applicationContext.getBean(MetroStation.class);
+        MetroStation metroStation = applicationContext.getBean(MetroStation.class);
         metroStation.setId(24);
         metroStation.setJourneyStart("Rajajinagar");
         metroStation.setDestination("silk institute");
         metroStation.setTicketPrice(30);
         System.out.println(metroStation);
 
-        Sports sports=applicationContext.getBean(Sports.class);
+        Sports sports = applicationContext.getBean(Sports.class);
         sports.setId(25);
         sports.setSportName("shuttle-cock");
         sports.setNoOfPlayers(2);

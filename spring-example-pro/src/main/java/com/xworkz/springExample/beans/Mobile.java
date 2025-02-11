@@ -1,6 +1,7 @@
 package com.xworkz.springExample.beans;
 
 import lombok.*;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Getter
@@ -11,8 +12,14 @@ import org.springframework.stereotype.Component;
 @Component
 
 public class Mobile {
-    private  int id;
+
+    @Value("14")
+    private int id;
+
+    @Value("Oppo")
     private String brand;
-    private  double cost;
+
+    @Value("45000.0")
+    private double cost;
 
 }
